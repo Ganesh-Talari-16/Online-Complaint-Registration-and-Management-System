@@ -14,6 +14,7 @@ const validateRegister = [
   },
 ];
 
+
 const validateLogin = [
   check('email', 'Please include a valid email').isEmail().normalizeEmail(),
   check('password', 'Password is required').exists(),
